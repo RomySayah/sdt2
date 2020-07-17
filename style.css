@@ -1,14 +1,16 @@
-body{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Dosis', sans-serif;
-  margin: 20px;
-  --color-edge: black;
-  --thick-edge: 0.2px;
-  --style-edge: solid;
+
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
     
+}
+
+.row{
+    content: "";
+    display: table;
+    clear:both;
 }
 
 
