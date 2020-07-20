@@ -10,7 +10,7 @@
   <script defer src="https://viewer.shapediver.com/v2/2.15.0/sdv.concat.min.js"></script>
   <link rel='stylesheet' type='text/css' href='https://viewer.shapediver.com/v2/2.15.0/sdv.css'>
     
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
   
 </head>
 
@@ -18,36 +18,43 @@
     
   <center><div style="font-family:Dosis;font-size: 10px;opacity: 0.7"><i>Performance depending on screen resolution/browser version — Chrome Advised.</i></div></center>
     
+
     
-    
-  <!-- ShapeDiver Viewer Main Container -->
-  <!-- Set explicit dimensions for the container -->
-  <div id='sdv-container' style="width:100%;height:300px;">
-  </div>
-  <!-- UI container which will be filled dynamically -->
-  <div id="parameters">
-    </div>
-    
-    <img src="images/urbanstack.png" width = "200">
-    
-   <div class ="row">
-    <div class ="column" style = "background-colorr:#aaa;">
-       <h2>column1</h2>
-        <p>some text</p>
+  <div class ="container">
+    <div class ="item">
+        <img src="images/urbanstack.png" width = "200">
+       <h2>Fill information</h2>
+        <p>Gender</p>
+        <p>Age</p>
+        <p>No of kids</p>
+        <p>Region</p>
+        <p>Length of residency</p>
        </div>
 
-    <div class ="column" style = "background-colorr:#bbb;">
-       <h2>column1</h2>
+    <div class ="item">
+        <center>
+            <div id="buttons">
+            <p id="status">Loading Model... Please wait...</p>
+            <div id="app">
+                <div id='sdv-container' style="width:300px;height:300px;"></div> 
+                <div id="input"></div>
+                <button class="btn" id="transferBtn">Transfer</button>
+                <button class="btn" id="randomBtn">Random</button>
+                <img id="output" src="images/blank.png">
+            </div>
+        </div>
+        </center>
+    </div>
+
+
+    <div class ="item" >
+       <h2>Customize your house here</h2>
         <p>some text</p>
+        <div id="parameters">
+    </div>
        </div>
 
-    <div class ="column" style = "background-colorr:#ccc;">
-       <h2>column1</h2>
-        <p>some text</p>
-       </div>
     </div>
-    
-    
     
     <script src="sketch.js"></script>
 </body>

@@ -1,26 +1,61 @@
 body{
   display:flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: 'Dosis', sans-serif;
-  margin: 20px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   --color-edge: black;
   --thick-edge: 0.2px;
   --style-edge: solid;
-    
 }
 
-.column{
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    
+* {box-sizing: border-box;}
+
+p{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 
-.row{
-    content: "";
-    display: table;
-    clear:both;
+*{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+
+
+.container {  
+  width: 75%;
+  content: "";
+  padding-top: 100px;
+  display: table;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  float: left;
+  width: 33.33%;
+  height: 700px;
+  border: 1px solid rgba(111,41,97,.5);
+}
+
+
+img{
+  height: 256px;
+  width: 256px;
+  box-shadow: none !important;
+}
+
+button{
+  padding: 5px 9px;
+  border: 1px solid black;
+  margin: 0px 5px 0px 0px;
+  font-family: 'Dosis', sans-serif;
+  background: white;
+  cursor: pointer;
+}
+
+#buttons{
+  margin-top: 30px;
 }
 
 
