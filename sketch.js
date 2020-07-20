@@ -3,8 +3,6 @@ let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, 
 let annotationToggle = true;
         
 var canvas = document.getElementById('canvas');
-var context = canvas.getContext('2d');
-
 
 function setup(){   
     output = select('#output');
@@ -27,13 +25,14 @@ function draw(video, context, width, height){
 
 function modelLoaded() { 
     modelReady = true;
+    statusMsg.html('Model Loaded!');
     transfer();
     transferBtn.mousePressed(function(){ 
         var inputData = context.toDataURL();
         inputData.class('border-box').parent('input');   
         inputImg = loadImage(inputData, drawImage);
         currentImg = inputImg;
-        transfer() 
+        transfer(); 
     });   
 }
     
@@ -42,6 +41,7 @@ function drawImage() {
 }
 
 function transfer() {
+    statusMsg.html('Transfering...');
     isTransfering = true;
     const canvasElement = select('canvas').elt;
     // Apply pix2pix transformation
@@ -50,16 +50,12 @@ function transfer() {
             console.log(err);
         }
         if (result && result.src) {
+            statusMsg.html('Done!');
             isTransfering = false;    
             output.elt.src = result.src;
         }
     });
 }
-
-
-
-
-
 
 
 
