@@ -167,7 +167,7 @@ let annotationToggle = true;
         
 
 //let _container = document.getElementById('sdv-container');
-var canvas = document.getElementById('canvas');
+var canvas = document.getElementById('sdv-container');
 var context = canvas.getContext('2d');
 
 
