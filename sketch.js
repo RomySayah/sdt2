@@ -1,5 +1,20 @@
 // This example is compatible with any ShapeDiver model ticket.
 
+
+
+
+let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, modelReady = false, isTransfering = false; 
+
+let annotationToggle = true;
+        
+
+var canvas = document.getElementById('canvas');
+var context = canvas.getContext('2d');
+
+
+
+
+
 // ShapeDiver Viewer Initialisation
 var initSdvApp = function(/*event*/) {
   // Settings can be defined here, or as attributes of the viewport container. Settings defined here take precedence.
@@ -160,17 +175,6 @@ if (document.readyState === "loading") {
 
 
 
-
-let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, modelReady = false, isTransfering = false; 
-
-let annotationToggle = true;
-        
-
-var container_ = document.querySelector('#sdv-container');
-var canvas = document.getElementById('canvas');
-var context = canvas.getContext('2d');
-
-
 function setup(){   
     output = select('#output');
     statusMsg = select('#status');
@@ -180,9 +184,8 @@ function setup(){
     pix2pix = ml5.pix2pix('models/model-8800.meta', modelLoaded);
 }
 
-function draw(video, context, width, height){
+function draw(context, width, height){
     var image, data;
-    context.drawImage(container_,0,0,width,height);
     image = context.getImageData(0,0,width,height);
     data = image.data;
             
