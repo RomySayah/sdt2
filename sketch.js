@@ -1,7 +1,7 @@
 // This example is compatible with any ShapeDiver model ticket.
 
 
-
+$.noConflict();
 
 let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, modelReady = false, isTransfering = false; 
 
