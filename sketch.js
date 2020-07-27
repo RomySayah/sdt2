@@ -166,8 +166,8 @@ let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, 
 let annotationToggle = true;
         
 
-//var _container = document.getElementById('sdv-container');
-var canvas = document.getElementById('sdv-container');
+var container_ = document.querySelector('#sdv-container');
+var canvas = document.getElementById('canvas');
 var context = canvas.getContext('2d');
 
 
@@ -182,7 +182,7 @@ function setup(){
 
 function draw(video, context, width, height){
     var image, data;
-
+    context.drawImage(container_,0,0,width,height);
     image = context.getImageData(0,0,width,height);
     data = image.data;
             
