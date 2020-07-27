@@ -213,7 +213,7 @@ function drawImage() {
 function transfer() {
     statusMsg.html('Transfering...');
     isTransfering = true;
-    const canvasElement = select('canvas').elt;
+    const canvasElement = select('sdv-container').elt;
     // Apply pix2pix transformation
     pix2pix.transfer(canvasElement, function(err, result) {
         if (err) {
