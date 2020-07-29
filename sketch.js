@@ -4,7 +4,7 @@ let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, 
 
 let annotationToggle = true;
         
-var canvas = document.getElementById("canvas");
+var canvas = document.getElementById("sdv-container");
 var context = canvas.getContext('2d');
 
 
