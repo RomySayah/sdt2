@@ -4,7 +4,7 @@ let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, 
 
 let annotationToggle = true;
         
-var sdv_ = document.querySelector("#sdv-container");
+//var sdv_ = document.querySelector("#sdv-container");
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext('2d');
 
@@ -180,17 +180,18 @@ function setup(){
     pix2pix = ml5.pix2pix('models/model-8800.meta', modelLoaded);
 }
 
-function draw(sdv_,context, width, height){
-    var image,data;
-    context.drawImage(sdv_,0,0,width,height);
+function draw(context, width, height){
+    //sdv_,
+    //var image,data;
+    //context.drawImage(sdv_,0,0,width,height);
             
-    image = context.getImageData(0,0,width,height);
-    data=image.data;
-    context.beginPath();
-    context.fillStyle = "rgb(0,0,0)";
-    context.fillRect(0, 0, 512, 512);
+    //image = context.getImageData(0,0,width,height);
+    //data=image.data;
+    //context.beginPath();
+    //context.fillStyle = "rgb(0,0,0)";
+    //context.fillRect(0, 0, 512, 512);
     
-    setTimeout(draw,10,sdv_,context,width,height);
+    //setTimeout(draw,10,sdv_,context,width,height);
 
 }
 
