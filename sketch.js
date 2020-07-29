@@ -1,14 +1,3 @@
-// This example is compatible with any ShapeDiver model ticket.
-
-let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, modelReady = false, isTransfering = false; 
-
-let annotationToggle = true;
-        
-var sdv_ = document.querySelector("#sdv-container");
-var canvas = document.getElementById('canvas');
-var context = canvas.getContext('2d');
-
-
 
 // ShapeDiver Viewer Initialisation
 var initSdvApp = function(/*event*/) {
@@ -167,8 +156,25 @@ if (document.readyState === "loading") {
 
 
 
+// This example is compatible with any ShapeDiver model ticket.
+
+let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, modelReady = false, isTransfering = false; 
+
+let annotationToggle = true;
+ 
+
+var canvas;
+var context;
 
 
+function init(){
+    var sdv_ = document.querySelector("#sdv-container");
+
+    canvas = document.getElementById('canvas');
+    context = canvas.getContext('2d');
+    drawImage(sdv_);
+
+}
 
 function setup(){   
     output = select('#output');
@@ -177,15 +183,17 @@ function setup(){
     
     pixelDensity(1);
     pix2pix = ml5.pix2pix('models/model-8800.meta', modelLoaded);
+    
+    
 }
 
 function draw(context, width, height){
     //sdv_,
-    var image,data;
-    context.drawImage(sdv_,0,0,width,height);
+    //var image,data;
+    //context.drawImage(sdv_,0,0,width,height);
             
-    image = context.getImageData(0,0,width,height);
-    data=image.data;
+    //image = context.getImageData(0,0,width,height);
+    //data=image.data;
 }
 
 function modelLoaded() { 
@@ -201,8 +209,10 @@ function modelLoaded() {
     });   
 }
     
-function drawImage() {
-    image(inputImg,0,0, 256, 256);
+function drawImage(sdv_) {
+    canvas.width = sdv_.width;
+    canvas.height = sdv_.height;
+    context.drawImage(sdv_,0,0);
 }
 
 function transfer() {
