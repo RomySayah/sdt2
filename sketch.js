@@ -4,7 +4,6 @@ let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, 
 
 let annotationToggle = true;
         
-var sdv_ = document.querySelector("#sdv-container");
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext('2d');
 
@@ -182,7 +181,7 @@ function setup(){
 
 function draw(context, width, height){
     var image, data, i, r1, g1, b1;
-    context.drawImage(sdv_,0,0,width,height);
+    context.drawImage(canvas,0,0,width,height);
             
     image = context.getImageData(0,0,width,height);
     data = image.data;
