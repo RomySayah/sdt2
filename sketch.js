@@ -4,10 +4,9 @@ let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, 
 
 let annotationToggle = true;
         
-
-var canvas = document.getElementById('sdv-container');
+var sdv_ = document.querySelector("#sdv-container");
+var canvas = document.getElementById("canvas");
 var context = canvas.getContext('2d');
-
 
 
 
@@ -182,6 +181,11 @@ function setup(){
 }
 
 function draw(context, width, height){
+    var image, data, i, r1, g1, b1;
+    context.drawImage(sdv_,0,0,width,height);
+            
+    image = context.getImageData(0,0,width,height);
+    data = image.data;
 
 }
 
@@ -205,7 +209,7 @@ function drawImage() {
 function transfer() {
     statusMsg.html('Transfering...');
     isTransfering = true;
-    const canvasElement = select('sdv-container').elt;
+    const canvasElement = select('canvas').elt;
     // Apply pix2pix transformation
     pix2pix.transfer(canvasElement, function(err, result) {
         if (err) {
