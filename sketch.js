@@ -182,13 +182,7 @@ function setup(){
 }
 
 function draw(context, width, height){
-    var image, data;
-    image = context.getImageData(0,0,width,height);
-    data = image.data;
-            
-    context.beginPath();    
-    context.fillStyle = "rgb(0,0,0)";
-    context.fillRect(0, 0, 512, 512);
+
 }
 
 function modelLoaded() { 
