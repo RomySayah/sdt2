@@ -5,7 +5,7 @@ let inputImg, currentImg, inputCanvas, output, statusMsg, pix2pix, transferBtn, 
 let annotationToggle = true;
         
 
-var canvas = document.getElementById('canvas');
+var canvas = document.getElementById('sdv-container');
 var context = canvas.getContext('2d');
 
 
@@ -211,7 +211,7 @@ function drawImage() {
 function transfer() {
     statusMsg.html('Transfering...');
     isTransfering = true;
-    const canvasElement = select('canvas').elt;
+    const canvasElement = select('sdv-container').elt;
     // Apply pix2pix transformation
     pix2pix.transfer(canvasElement, function(err, result) {
         if (err) {
