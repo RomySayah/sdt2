@@ -11,6 +11,14 @@ body{
   --style-edge: solid;
 }
 
+.p5Canvas{
+    width:"1";
+    height:"1";
+    color:black;
+    border:black;
+}
+
+
 * {box-sizing: border-box;}
 
 p{
