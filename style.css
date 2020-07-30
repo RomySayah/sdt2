@@ -5,17 +5,27 @@ body{
   align-items: center;
   justify-content: center;
   color:white;
+    font-size:13px;
+    line-height: 20px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   --color-edge: white;
   --thick-edge: 0.2px;
   --style-edge: solid;
 }
 
-.p5Canvas{
-    width:"1";
-    height:"1";
-    color:black;
-    border:black;
+
+
+
+
+
+
+#logo{
+    width:200;
+    height:auto;
+}
+
+#defaultCanvas0{
+    border:transparent;
 }
 
 
@@ -40,14 +50,14 @@ p{
 
 #status{
   color:rgb(209, 209, 209);
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   opacity: 0;
 }
 
 .container {  
   width: 75%;
   content: "";
-  padding-top: 100px;
+  padding-top: 50px;
   display: table;
   clear: both;
   margin-left: auto;
@@ -62,6 +72,7 @@ p{
 }
 
 .item-left {
+  padding:20px;
   float: left;
   width: 33.33%;
   height: 700px;
@@ -69,6 +80,7 @@ p{
 }
 
 .item-right {
+  padding:20px;
   float: right;
   width: 33.33%;
   height: 700px;
@@ -76,6 +88,7 @@ p{
 }
 
 .item-center {
+  padding: 10px;
   display: inline-block;
   width: 33.33%;
   height: 700px;
@@ -101,7 +114,8 @@ button{
   margin: 25px;
   padding: 5px 9px;
   border: 1px solid white;
-  margin: 0px 5px 0px 0px;
+  margin: 5px 5px 5px 5px;
+  color:white;
   font-family: 'Dosis', sans-serif;
   background: black;
   cursor: pointer;
@@ -112,7 +126,7 @@ button{
 }
 
 #app{
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 10px 0px;
 }
 
 

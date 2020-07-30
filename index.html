@@ -6,9 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>UrbanStack</title>
   
-    
 
-    
     
   <!-- ShapeDiver Viewer -->
   <script src="https://viewer.shapediver.com/v2/2.20.2/sdv.concat.min.js"></script>
@@ -35,13 +33,56 @@
     
   <div class ="container">
     <div class ="item-left">
-        <img src="images/urbanstack.png" width = "200">
-       <h2>Fill information</h2>
-        <p>Gender</p>
-        <p>Age</p>
-        <p>No of kids</p>
-        <p>Region</p>
-        <p>Length of residency</p>
+        <img id="logo" src="images/urbanstack2.png">
+        <p>This project imagines how to better understand the community as a design agent and attempts to design tools that will allow for a better mediation between designers and residents.</p>
+       <h2>Tell us more about yourself below</h2>
+        
+        
+<form action="/action_page.php">
+  <label for="gender">Gender:</label>
+  <select name="gender" id="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Other">Other</option>
+  </select>
+  <br><br>      
+    
+  <label for="gender">Age:</label>
+  <select name="age" id="age">   
+    <option value="Below 20">Below 20</option>
+    <option value="20 to 30">20 to 30</option>
+    <option value="30 to 40">30 to 40</option>
+    <option value="40 to 50">40 to 50</option>
+    <option value="50 to 60">50 to 60</option>
+    <option value="60 to 70">60 to 70</option>
+    </select>
+    <br><br> 
+
+  <label for="gender">Marrital Status:</label>     
+  <select name="marrital" id="marrital">
+    <option value="single">Single</option>
+    <option value="married">Married</option>
+    <option value="separated">Separated</option>
+    <option value="divorced">Divorced</option>
+    <option value="widowed">Widowed</option>
+  </select>
+  <br><br> 
+    
+    
+
+  <label for="gender">Number of Kids:</label>    
+  <select name="nokids" id="nokids">
+    <option value="LessThan1">Less than 1</option>
+    <option value="one">1</option>
+    <option value="two">2</option>
+    <option value="three">3</option>
+    <option value="More than 3">More than 3</option>
+  </select>
+  <br><br> 
+  </form> 
+        
+        <input type="submit" value="Start Designing!">
+        
        </div>
 
     <div class ="item-center">
@@ -67,8 +108,7 @@
 
 
     <div class ="item-right" >
-       <h2>Customize your house here</h2>
-        <p>some text</p>
+       <h2>Describe to us your ideal home</h2>
         <div id="parameters">
     </div>
        </div>
