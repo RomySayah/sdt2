@@ -548,7 +548,6 @@ input.sd-input-range-mobile[type="range"]::-webkit-slider-runnable-track {
 
 input.sd-input-range[type="range"]:invalid {
   box-shadow: none; }
-
 input.sd-input-number[type="number"]:invalid {
   box-shadow: none; }
 
@@ -565,10 +564,10 @@ input.shapediver-viewer-element[type="checkbox"] {
 /*** the label ***/
 .sdv-control-panel-boolean-input-checkbox-label {
   font-family: arial;
-  padding-left: 32px;
+  padding-left: 20px;
   margin-bottom: 8px;
-  padding-top: 6px;
-  font-size: 14px;
+  padding-top: 5px;
+  font-size: 12px;
   position: relative;
   display: inline-block;
   width: 44px;
