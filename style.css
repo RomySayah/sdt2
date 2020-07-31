@@ -14,9 +14,11 @@ body{
 }
 
 
-
-
-
+#status{
+  color:rgb(209, 209, 209);
+  margin-bottom: 40px;
+  opacity: 0;
+}
 
 
 #logo{
