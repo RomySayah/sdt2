@@ -20,33 +20,35 @@
   <link rel="stylesheet" id="wp-block-library-theme-css" href="https://www.shapediver.com/wp-includes/css/dist/block-library/theme.min.css?ver=5.3.2" type="text/css" media="all">
   <!-- style -->    
   <link rel="stylesheet" href="style.css">
+    
 
     
 </head>
 
 
 <body>
+  
+  <div>
+  <img src="images/urbanstack2.png" style="position: absolute;left:20px;top:20px;width:100px; height:auto;z-index:0;cursor: pointer;">
+      
+      <h2 style="position: absolute;left:20px;top:90px;width:100px; height:auto;z-index:0;cursor: pointer; text-align: right">Tool V1</h2>
+      
+      <h2 style="position: absolute;left:20px;top:120px;width:100px; height:auto;z-index:0;cursor: pointer; text-align: right">Tool V2</h2>
+      
+    </div>    
+    
+  <div style="font-family:Dosis;font-size: 10px;opacity: 0.7; position:absolute; left: 140px; top:21px"><i>Performance depending on screen resolution/browser version — Chrome Advised.</i><br><i>This is a research done with the Laboratory for Design Technologies at Harvard's Graduate School of Design.</i></div>
 
-  <center><div style="font-family:Dosis;font-size: 10px;opacity: 0.7"><i>Performance depending on screen resolution/browser version — Chrome Advised.</i></div></center>
-  <center><div style="font-family:Dosis;font-size: 10px;opacity: 0.7"><i>This is a research done with the Laboratory for Design Technologies at Harvard's Graduate School of Design.</i></div></center>
-
-
+  
     
   <div class ="container">
-    <div class ="item-left">
-        <img id="logo" src="images/urbanstack2.png">
-        <p>This project imagines how to better understand the community as a design agent and attempts to design tools that will allow for a better mediation between designers and residents.</p>
-       <h2>Tell us more about yourself below</h2>
+    <div style="padding-top: 120px " class ="item-left">
+        
+        
+       <h2 >About you</h2>
         
         
 <form action="/action_page.php">
-  <label for="gender">Gender:</label>
-  <select name="gender" id="gender">
-    <option value="Male">Male</option>
-    <option value="Female">Female</option>
-    <option value="Other">Other</option>
-  </select>
-  <br><br>      
     
   <label for="gender">Age:</label>
   <select name="age" id="age">   
@@ -58,32 +60,19 @@
     <option value="60 to 70">60 to 70</option>
     </select>
     <br><br> 
-
-  <label for="gender">Marrital Status:</label>     
-  <select name="marrital" id="marrital">
-    <option value="single">Single</option>
-    <option value="married">Married</option>
-    <option value="separated">Separated</option>
-    <option value="divorced">Divorced</option>
-    <option value="widowed">Widowed</option>
-  </select>
-  <br><br> 
     
-    
-
-  <label for="gender">Number of Kids:</label>    
-  <select name="nokids" id="nokids">
-    <option value="LessThan1">Less than 1</option>
-    <option value="one">1</option>
-    <option value="two">2</option>
-    <option value="three">3</option>
-    <option value="More than 3">More than 3</option>
+  <label for="gender">Gender:</label>
+  <select name="gender" id="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Other">Other</option>
   </select>
-  <br><br> 
+  <br><br>      
+    
   </form> 
-        
-        <input type="submit" value="Start Designing!">
-        
+        <div id="parameters">
+        <button class="btn" id="transferBtn">Transfer</button>
+        </div>
        </div>
 
     <div class ="item-center">
@@ -92,14 +81,14 @@
             <p id="status">Loading Model... Please wait...</p>
             <div id="app" style="align-items: center">
 
-                <div id='sdv-container' style="width:256px;height:256px;">
+                <div id='sdv-container' style="width:256px;height:256px;position:absolute; top:500px">
                 </div> 
                 <br>
                 <div id="input"></div>
-                <button class="btn" id="transferBtn">Transfer</button>
+                
                 <br>
 
-                <img id="output" src="images/blank.png">
+                
                 
             </div>
         </div>
@@ -108,10 +97,10 @@
 
 
     <div class ="item-right" >
-       <h2>Describe to us your ideal home</h2>
-        <div id="parameters">
+        <img style="width:256px;height:256px;position:absolute; top:500px" id="output" src="images/blank.png">
+        
     </div>
-       </div>
+       
 
     </div>
     <script src="sketch.js"></script>
