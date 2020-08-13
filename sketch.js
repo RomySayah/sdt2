@@ -1,4 +1,3 @@
-
 // ShapeDiver Viewer Initialisation
 var initSdvApp = function(/*event*/) {
   // Settings can be defined here, or as attributes of the viewport container. Settings defined here take precedence.
@@ -138,6 +137,12 @@ if (document.readyState === "loading") {
 } else {
   initSdvApp();
 }
+
+api.parameters.updateAsync([{name: "widthparcel", value: 6.3}]).then(
+  function(response) {
+    console.log(response);
+  }
+);
 
 
 
