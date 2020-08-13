@@ -23,6 +23,7 @@
 <body>
     
 <div>
+  
   <img src="images/urbanstack2.png" style="position: absolute;left:20px;top:20px;width:100px; height:auto;z-index:0;cursor: pointer;">
       
   <h3 style="color: white; position: absolute;left:20px;top:70px;width:100px; height:auto;z-index:0;cursor: pointer; text-align: right">Tool V1</h3>
@@ -59,25 +60,31 @@
             
             <h3 style="color: white;">ABOUT YOUR TRIPLE DECKER NEEDS</h3>
             <div id="parameters"></div>
-            <button class="btn" id="transferBtn">Transfer</button>
+            <br>
+            <br>
+            <br>
+            <div id="buttons">
+              <p id="status" style="opacity:1; color:white; position:relative">Loading Model... Please wait...</p> 
+              <button class="btn" id="transferBtn">Transfer</button>
+            </div>
             
         </div>
-      
+        
         <div class="column middle" style="height:400px; border: 1px dotted white;">
-            <center>
-            <p id="status">Loading Model... Please wait...</p> 
-            <div id="app">
-            <div id='sdv-container' style="width:256px;height:256px;top:500px">
-            </div> 
-            <br>
-            <div id="input"></div>
-            </div>
-            </center>
+          <center>
+                <div id="app">
+                  <div id='sdv-container' style="width:256px;height:256px;top:500px;">
+                </div> 
+                <br>
+                <div id="input"></div>
+              </div>
+
+           </center>
+
 
         </div>
         <div class="column right" style="height:400px; border: 1px dotted white;">
             <img style="width:256px;height:256px" id="output" src="images/blank.png">
-            
         </div>
   </div>
 

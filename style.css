@@ -39,7 +39,9 @@ body{
 
 p{
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  color:white;
 }
+
 
 *{
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
@@ -49,15 +51,10 @@ h2{
     color:white;
 }
 
-p{
-    color:white;
-}
-
 
 #status{
   color:rgb(209, 209, 209);
   margin-bottom: 10px;
-  opacity: 0;
 }
 
 
