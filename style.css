@@ -19,30 +19,6 @@ body{
 
 
 
-.column-left {
-  float: left;
-  padding: 10px;
-  height: 300px;
-width: 25%;
-}
-
-.column-left {
-  float: left;
-  padding: 10px;
-  height: 300px;
-width: 75%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
-
 
 
 
