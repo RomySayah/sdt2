@@ -92,8 +92,7 @@ p{
   float: left;
   width: 33.33%;
   height: 700px;
-  
-  
+  border: 4px dotted blue;
 }
 
 .item-right {
@@ -101,6 +100,7 @@ p{
   float: right;
   width: 33.33%;
   height: 700px;
+  border: 4px dotted blue;
   
   
 }
@@ -110,6 +110,7 @@ p{
   display: flex;
   width: 33.33%;
   height: 700px;
+  border: 4px dotted blue;
   
   
 }
