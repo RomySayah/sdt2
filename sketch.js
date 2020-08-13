@@ -138,12 +138,6 @@ if (document.readyState === "loading") {
   initSdvApp();
 }
 
-api.parameters.updateAsync([{name: "widthparcel", value: 6.3}]).then(
-  function(response) {
-    console.log(response);
-  }
-);
-
 
 
 
