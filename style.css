@@ -19,10 +19,28 @@ body{
 
 
 
-
-h3{
-  color:white;
+.column-left {
+  float: left;
+  padding: 10px;
+  height: 300px;
+width: 25%;
 }
+
+.column-left {
+  float: left;
+  padding: 10px;
+  height: 300px;
+width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 
 
 
@@ -106,8 +124,11 @@ p{
 }
 
 .item-center {
-  padding: 10px;
+  padding: 20px;
+  float: right;
   display: flex;
+  align-items: right;
+  justify-content: right;
   width: 33.33%;
   height: 700px;
   border: 4px dotted blue;
@@ -145,9 +166,7 @@ button{
   margin-top: 20px;
 }
 
-#app{
-  margin: 0px 0px 10px 0px;
-}
+
 
 
 canvas{
