@@ -11,7 +11,7 @@ body{
   color:white;
     font-size:13px;
     line-height: 20px;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "DIN Alternate Bold"; 
   --color-edge: white;
   --thick-edge: 0.2px;
   --style-edge: solid;
@@ -38,13 +38,13 @@ body{
 * {box-sizing: border-box;}
 
 p{
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "DIN Alternate Bold"; 
   color:white;
 }
 
 
 *{
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "DIN Alternate Bold"; 
 }
 
 h2{
@@ -84,6 +84,12 @@ h2{
     clear:both;
 }
 
+@font-face {
+  font-family: 'DIN Alternate Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('DIN Alternate Bold'), url('font/DINAlternate-Bold.woff') format('woff');
+  }
 
 
 @media (max-width: 700px) {
@@ -107,7 +113,7 @@ button{
   border: 1px solid white;
   margin: 5px 5px 5px 5px;
   color:white;
-  font-family: 'Dosis', sans-serif;
+  font-family: "DIN Alternate Bold";
   background: black;
   cursor: pointer;
 }
