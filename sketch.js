@@ -1,3 +1,4 @@
+
 // ShapeDiver Viewer Initialisation
 var initSdvApp = function(/*event*/) {
   // Settings can be defined here, or as attributes of the viewport container. Settings defined here take precedence.
