@@ -28,6 +28,19 @@ h3{
 }
 
 
+.columns{
+  float: left;
+  padding:10px;
+}
+.lefts{
+  width:60%;
+}
+.rights{
+  width:40%;
+}
+
+
+
 #logo{
     width:200;
     height:auto;
