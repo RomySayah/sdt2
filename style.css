@@ -17,6 +17,12 @@ body{
   --style-edge: solid;
 }
 
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
 h3{
   font-family: "DIN Alternate Bold"; 
 }
@@ -94,7 +100,7 @@ h2{
     width:35%;
 }
 .row{
-    margin-top:180px;
+    margin-top:150px;
     width:75%;
     content:"";
     display:table;
