@@ -17,6 +17,9 @@ body{
   --style-edge: solid;
 }
 
+h3{
+  font-family: "DIN Alternate Bold"; 
+}
 
 #status{
   color:rgb(209, 209, 209);
@@ -49,6 +52,7 @@ p{
 
 h2{
     color:white;
+    font-family: "DIN Alternate Bold"; 
 }
 
 
