@@ -132,9 +132,9 @@ img{
 
 button{
   margin: 25px;
-  padding: 5px 9px;
+  padding: 10px 10px;
   border: 1px solid white;
-  margin: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
   color:white;
   font-family: "DIN Alternate Bold";
   background: black;
@@ -174,4 +174,11 @@ canvas{
 
 }
 
-
+.vl {
+  border-left: 1px solid white;
+  opacity: 0.3;
+  height: 140px;
+  position: absolute;
+  left: 140px;
+  top: 10px;
+}
