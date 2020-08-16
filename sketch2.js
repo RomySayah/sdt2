@@ -189,7 +189,7 @@ function modelLoaded() {
 }
     
 function drawImage() {
-      image(inputImg,0,0, 256, 256);
+      image(inputImg,0,0, 320, 320);
 }
 
 function transfer() {
