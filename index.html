@@ -69,7 +69,11 @@
             <div id="buttons">
               <p id="status" style="opacity:1; color:white; position:relative">Loading Model... Please wait...</p> 
               <button class="btn" id="transferBtn">Transfer</button>
-              <button class="btn" onclick="exportFile('romysayah@gmail.com');">I'm Done!</button>
+
+              <input type='text' onchange='updateEmail(this.value);' placeholder="Enter email address...">
+              <button onclick="exportFile('ExampleEmailExport');">
+              I'm Done!
+              </button> 
             </div>      
         </div>
         
@@ -90,7 +94,7 @@
         </div>
   </div>
 
-
+  <span id="dataresult"></span>
   <script src="sketch.js"></script>
 </body>
 </html>

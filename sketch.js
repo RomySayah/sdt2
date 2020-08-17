@@ -139,7 +139,6 @@ if (document.readyState === "loading") {
 }
 
 
-
 function exportFile(exportName) {
 	let span = document.getElementById('dataresult');
   api.exports.requestAsync({name: exportName}).then(
@@ -155,8 +154,9 @@ function exportFile(exportName) {
   );
 }
 
-
-
+function updateEmail(val) {
+	api.parameters.updateAsync({name: 'TargetEmail', value: val});
+}
 
 
 
