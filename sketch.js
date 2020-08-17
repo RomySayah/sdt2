@@ -4,7 +4,7 @@ var initSdvApp = function(/*event*/) {
   let _container = document.getElementById('sdv-container'); 
   let settings = {
     container: _container,
-    ticket: "0dd55cb2b1b2a731504ccd1536d85b73249b63c8679e978c5ea932c03e8e620a919b5a533f8eed6e040f8d4257e6aa77af9138378ade2f779da50719bb912f173be4731e128a19eca8767c96e0579293ff7bb7ed5db407cbab7afc617a5c4dda037ef13083a1a1ff34c574203d80745a01bfee859085-be610b1e14d045e1b059c56b5ea0ef73",
+    ticket: "237911c1b27eb729677f17d526320e8042c234b07f8d98c560a5389a0a617d9bf769c0edb13e59952cb32f0524a11a80c8854c9122b1280dfdc63c004d500c2de5c7b2439715682864514832059e86e2a75cbc615a92ffaaa84c401f6b76e64fc9d30fa1ae3734dc1fc7a9bb9f089bce57ad4ef3cfce-275bf90bdc942e21aae79e958739d366",
     modelViewUrl: "eu-central-1",
     showControlsInitial: true,
     showSettingsInitial: false,
