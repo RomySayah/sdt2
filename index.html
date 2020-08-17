@@ -38,7 +38,7 @@
             
             <h4 style="color: white;">ABOUT YOU</h4>
             <hr />  
-                <form style="margin-bottom: 0px;" action="/action_page.php">
+                <form style="margin-bottom: 0px;" action="/insert.php" method="get">
 
                   <label for="age">What is your age?</label>
                   <select name="age" id="age" style="float:right;margin-right:0;width:140px;">   
@@ -57,7 +57,15 @@
                     <option value="Female">Female</option>
                     <option value="Other">Other</option>
                   </select>
-                  <br><br>    
+                  <br><br>  
+                  
+                  <input type = "text" name = "name" placeholder = "Full name">
+                  <input type = "text" name = "mail" placeholder = "Your e-mail">
+                  <input type = "text" name = "subject" placeholder = "Subject">
+                  <textarea name="message" placeholder="Message"></textarea>
+                  <button type="submit" name = "submit">SEND EMAIL</button>
+
+
                 </form> 
                 
             
@@ -69,18 +77,7 @@
             <div id="buttons">
               <p id="status" style="opacity:1; color:white; position:relative">Loading Model... Please wait...</p> 
               <button class="btn" id="transferBtn">Transfer</button>
-              <button onclick="listExports();">
-                List export assets
-              </button>
-              <button onclick="exportFile('ExampleDirectExport');">
-                Direct export (download)
-              </button>
-              <div style="margin-top:10px;">
-              <input type='text' onchange='updateEmail(this.value);' placeholder="Enter email address...">
-              <button onclick="exportFile('ExampleEmailExport');">
-              I'm Done!
-              </button> 
-            </div>
+              
             </div>      
         </div>
         

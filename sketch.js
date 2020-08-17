@@ -139,43 +139,6 @@ if (document.readyState === "loading") {
 }
 
 
-function listExports() {
-	let span = document.getElementById('dataresult');
-  let res = api.exports.get().data;
-  span.innerHTML = '';
-  if (res.length>0) span.innerHTML += 'Export assets found: <br>';
-  for (let i=0 ;i<res.length; i++) {
-  	span.innerHTML += '---------------- <br>';
-    span.innerHTML += 'Name: ' + res[i].name + '<br>';
-    span.innerHTML += 'Type: ' + res[i].type + '<br>';
-  }
-  span.innerHTML += '---------------- <br>';
-}
-
-function exportFile(exportName) {
-	let span = document.getElementById('dataresult');
-  api.exports.requestAsync({name: exportName}).then(
-    function(response){ 
-    	if (response.data.type=='download') {
-      	let link = response.data.content[0].href;
-        	span.innerHTML = "Use this link to download the file: " + link
-          window.location=link;
-        } else {
-        	span.innerHTML = "Result message: " + response.data.result.msg;
-        }
-    }
-  );
-}
-
-function updateEmail(val) {
-	api.parameters.updateAsync({name: 'TargetEmail', value: val});
-}
-
-
-
-
-
-
 
 
 
