@@ -69,11 +69,18 @@
             <div id="buttons">
               <p id="status" style="opacity:1; color:white; position:relative">Loading Model... Please wait...</p> 
               <button class="btn" id="transferBtn">Transfer</button>
-
+              <button onclick="listExports();">
+                List export assets
+              </button>
+              <button onclick="exportFile('ExampleDirectExport');">
+                Direct export (download)
+              </button>
+              <div style="margin-top:10px;">
               <input type='text' onchange='updateEmail(this.value);' placeholder="Enter email address...">
               <button onclick="exportFile('ExampleEmailExport');">
               I'm Done!
               </button> 
+            </div>
             </div>      
         </div>
         

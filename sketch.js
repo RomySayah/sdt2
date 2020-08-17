@@ -139,6 +139,19 @@ if (document.readyState === "loading") {
 }
 
 
+function listExports() {
+	let span = document.getElementById('dataresult');
+  let res = api.exports.get().data;
+  span.innerHTML = '';
+  if (res.length>0) span.innerHTML += 'Export assets found: <br>';
+  for (let i=0 ;i<res.length; i++) {
+  	span.innerHTML += '---------------- <br>';
+    span.innerHTML += 'Name: ' + res[i].name + '<br>';
+    span.innerHTML += 'Type: ' + res[i].type + '<br>';
+  }
+  span.innerHTML += '---------------- <br>';
+}
+
 function exportFile(exportName) {
 	let span = document.getElementById('dataresult');
   api.exports.requestAsync({name: exportName}).then(
