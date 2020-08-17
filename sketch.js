@@ -1,4 +1,3 @@
-
 // ShapeDiver Viewer Initialisation
 var initSdvApp = function(/*event*/) {
   // Settings can be defined here, or as attributes of the viewport container. Settings defined here take precedence.
@@ -141,6 +140,23 @@ if (document.readyState === "loading") {
 
 
 
+function exportFile(exportName) {
+	let span = document.getElementById('dataresult');
+  api.exports.requestAsync({name: exportName}).then(
+    function(response){ 
+    	if (response.data.type=='download') {
+      	let link = response.data.content[0].href;
+        	span.innerHTML = "Use this link to download the file: " + link
+          window.location=link;
+        } else {
+        	span.innerHTML = "Result message: " + response.data.result.msg;
+        }
+    }
+  );
+}
+
+
+
 
 
 
@@ -178,6 +194,7 @@ function setup(){
 function draw(context, width, height){
 
 }
+
 
 function modelLoaded() { 
     statusMsg.html('Model Loaded!');
