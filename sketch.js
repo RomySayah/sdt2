@@ -204,3 +204,13 @@ function transfer() {
 
 
 
+function getScreenshot(){
+  html2Canvas(document.body{
+    onrendered: function(canvas){
+      $('#box1').html("");
+      $('#box1').append(canvas);
+    }
+  });
+
+
+}
