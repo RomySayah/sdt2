@@ -17,10 +17,17 @@ body{
   --style-edge: solid;
 }
 
-#parameters #861f9298-4971-43d5-ac34-d7745348ec41{
-  font-size: 10px;
+#parameters div label{
+  line-height:1.6px;
+}
+
+#parameters div input{
   float:right;
   margin-right:0;
+}
+
+#parameters div label #861f9298-4971-43d5-ac34-d7745348ec41{
+  color:red;
 }
 
 .box {
