@@ -17,6 +17,12 @@ body{
   --style-edge: solid;
 }
 
+#parameters #861f9298-4971-43d5-ac34-d7745348ec41{
+  font-size: 10px;
+  float:right;
+  margin-right:0;
+}
+
 .box {
   display: flex;
   flex-wrap: wrap;
