@@ -18,15 +18,13 @@ body{
 }
 
 #parameters div label{
-  margin-top:8px;
-  display: inline-block;
+  float: left;
   line-height:15px;
   height: 20px;
   width: 60%;
 }
 
 #parameters div input{
-  
   line-height:10px;
   height: 20px;
   width: 40%;
@@ -35,7 +33,7 @@ body{
 }
 
 #parameters div select{
-  line-height:10px;
+  line-height:5px;
   height: 20px;
   width: 40%; 
   float: right;
