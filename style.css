@@ -19,26 +19,25 @@ body{
 
 #parameters div label{
   display: inline-block;
-  line-height:10px;
+  line-height:15px;
   height: 20px;
   width: 60%;
 }
 
 #parameters div input{
-  display: inline-block;
+  
   line-height:10px;
   height: 20px;
   width: 40%;
-
+  float: right;
   margin-right:0;
 }
 
 #parameters div select{
-  display: inline-block;
   line-height:10px;
   height: 20px;
-  width: 40%;
-
+  width: 40%; 
+  float: right;
   margin-right:0;
 }
 
