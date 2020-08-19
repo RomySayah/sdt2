@@ -18,15 +18,18 @@ body{
 }
 
 #parameters div label{
-  line-height:1.6px;
+  line-height:10px;
+  width: 60%;
 }
 
 #parameters div input{
-  float:right;
+  line-height:10px;
+  width: 40%;
+  float: right;
   margin-right:0;
 }
 
-#parameters div label #861f9298-4971-43d5-ac34-d7745348ec41{
+#parameters div #861f9298-4971-43d5-ac34-d7745348ec41{
   color:red;
 }
 
