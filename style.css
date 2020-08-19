@@ -18,20 +18,32 @@ body{
 }
 
 #parameters div label{
+  display: inline-block;
   line-height:10px;
   height: 20px;
   width: 60%;
 }
 
 #parameters div input{
+  display: inline-block;
   line-height:10px;
   height: 20px;
   width: 40%;
-  float: right;
+
+  margin-right:0;
+}
+
+#parameters div select{
+  display: inline-block;
+  line-height:10px;
+  height: 20px;
+  width: 40%;
+
   margin-right:0;
 }
 
 #parameters div label #861f9298-4971-43d5-ac34-d7745348ec41{
+  display: inline-block;
   color:red;
   font-size: 24px;
 }
