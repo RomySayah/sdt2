@@ -38,7 +38,7 @@ body{
   line-height: 32px;
 }
 
-#parameters label#861f9298-4971-43d5-ac34-d7745348ec41{
+#parameters > label#861f9298-4971-43d5-ac34-d7745348ec41{
   color : red;
 
 }
@@ -217,3 +217,15 @@ hr {
   background-color: white;
 
 }
+
+.sp-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  z-index: 9999994;
+  overflow: hidden;
+  background-color: white;
+ }
