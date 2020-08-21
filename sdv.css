@@ -1,6 +1,3 @@
-
-
-
 .sp-container {
   position: absolute;
   top: 0;
@@ -11,10 +8,7 @@
   z-index: 9999994;
   overflow: hidden;
   background-color: white;
-  border: solid 1px #9e9e9e; }
-
-
-
+  border: solid 1px #0a12c6; }
 
 .sp-container.sp-flat {
   position: relative; }
@@ -280,8 +274,8 @@
   margin: 0;
   width: 100%;
   background: transparent;
-  border-radius: 2px;
-  color: #c3c3c3; }
+  border-radius: 3px;
+  color: #222; }
 
 .sp-input:focus {
   border: 1px solid orange; }
@@ -303,7 +297,7 @@
   border-left: solid 1px #fff; }
 
 .sp-palette-container {
-  border-right: solid 1px #c3c3c3; }
+  border-right: solid 1px #ccc; }
 
 .sp-palette-only .sp-palette-container {
   border: 0; }
@@ -327,7 +321,7 @@
 
 .sp-initial {
   float: left;
-  border: solid 1px #c3c3c3; }
+  border: solid 1px #333; }
 
 .sp-initial span {
   width: 30px;
@@ -354,7 +348,7 @@
   *display: inline;
   border: solid 1px #91765d;
   background: #eee;
-  color: #c3c3c3;
+  color: #333;
   vertical-align: middle; }
 
 .sp-replacer:hover,
@@ -429,13 +423,13 @@
   background-image: -o-linear-gradient(top, #ddd, #bbb);
   background-image: linear-gradient(to bottom, #ddd, #bbb);
   border: 1px solid #bbb;
-  border-bottom: 1px solid #c3c3c3;
+  border-bottom: 1px solid #999;
   cursor: pointer;
   text-shadow: 0 1px 0 #ddd; }
 
 .sp-container button:active {
   border: 1px solid #aaa;
-  border-bottom: 1px solid #c3c3c3;
+  border-bottom: 1px solid #888;
   -webkit-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
   -moz-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
   -ms-box-shadow: inset 0 0 5px 2px #aaa, 0 1px 0 0 #eee;
@@ -513,26 +507,25 @@
 .sd-max-width-4 {
   max-width: 2000px !important; }
 
+.sd-landscape-max-width {
+  max-width: 250px !important; }
+
+.sdv-edit-label {
+  background-color: #eeeeee;
+  border: 1px solid #dddddd; }
+
 .sd-control-button:hover {
   color: white !important;
-  background-color: #313131 !important; }
-
-.sd-control-button-confirm {
-  background-color: #313131 !important; }
-
-.sd-control-button-confirm:hover {
-  color: black !important;
-  background-color: white !important;
-  border-color: #b2b2b2; }
+  background-color: #0900bc !important; }
 
 input.sd-input-range[type="range"]::-moz-range-thumb {
-  background: #505050; }
+  background: #0900bc; }
 
 input.sd-input-range[type="range"]::-webkit-slider-thumb {
-  background: #505050; }
+  background: #0900bc; }
 
 input.sd-input-range[type="range"]::-ms-thumb {
-  background: #505050; }
+  background: #0900bc; }
 
 input.sd-input-range-mobile[type="range"]::-moz-range-thumb {
   width: 24px;
@@ -554,13 +547,12 @@ input.sd-input-range-mobile[type="range"]::-webkit-slider-runnable-track {
 
 input.sd-input-range[type="range"]:invalid {
   box-shadow: none; }
+
 input.sd-input-number[type="number"]:invalid {
   box-shadow: none; }
 
 input[type="range"] {
-  -webkit-tap-highlight-color: transparent;
-  margin:10px 0;
-  width:100%; }
+  -webkit-tap-highlight-color: transparent; }
 
 .ios-padding-left {
   padding-left: 20px !important; }
@@ -572,15 +564,14 @@ input.shapediver-viewer-element[type="checkbox"] {
 /*** the label ***/
 .sdv-control-panel-boolean-input-checkbox-label {
   font-family: arial;
-  padding-left: 20px;
+  padding-left: 32px;
   margin-bottom: 8px;
-  padding-top: 5px;
-  font-size: 12px;
-  position: right;
+  padding-top: 6px;
+  font-size: 14px;
+  position: relative;
   display: inline-block;
   width: 44px;
-  height: 10px;
-  text-align: right; }
+  height: 26px; }
 
 .sdv-control-panel-boolean-input-checkbox-label input {
   display: none; }
@@ -609,15 +600,15 @@ input.shapediver-viewer-element[type="checkbox"] {
 
 input.shapediver-viewer-element:checked
 + .sdv-control-panel-boolean-input-boxhelper {
-  background-color: #313131; }
+  background-color: #0900bc; }
 
 input.shapediver-viewer-element:focus
 + .sdv-control-panel-boolean-input-boxhelper {
-  box-shadow: 0 0 1px #313131; }
+  box-shadow: 0 0 1px #0900bc; }
 
 input.shapediver-viewer-element:hover
 + .sdv-control-panel-boolean-input-boxhelper {
-  box-shadow: 0 0 1px #313131; }
+  box-shadow: 0 0 1px #0900bc; }
 
 input.shapediver-viewer-element:checked
 + .sdv-control-panel-boolean-input-boxhelper:before {
@@ -685,7 +676,7 @@ input:disabled
   top: 2px;
   width: 4px;
   height: 14px;
-  border: solid #313131;
+  border: solid #0900bc;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg); }
 
@@ -693,12 +684,6 @@ input:disabled
 input:checked
 ~ .sdv-control-panel-checklist-input-boxhelper:after {
   display: block; }
-
-.vector3-label {
-  margin-right: 3px; }
-
-.vector3-container {
-  margin-top: 3px !important; }
 
 .sd-commit-container {
   background: white; }
@@ -849,7 +834,8 @@ input:checked
   flex: none !important;
   width: 86%;
   padding-left: 0px;
-  margin-bottom: 8px; }
+  margin-bottom: 8px;
+  overflow-wrap: anywhere; }
 
 /**
 the control within a row
@@ -896,6 +882,12 @@ the individual types have their own classes which are defined below
 
 .shapediver-settings-tabs > .uk-active > a {
   border-color: #0900bc !important; }
+
+.vector3-label {
+  margin-right: 3px; }
+
+.vector3-container {
+  margin-top: 3px !important; }
 
 .shapediver-domElements {
   -webkit-touch-callout: none;
