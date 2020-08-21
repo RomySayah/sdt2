@@ -201,6 +201,7 @@ canvas{
   border-left: 1px solid white;
   opacity: 0.3;
   height: 150px;
+  width:100px;
   position: absolute;
   left: 130px;
   top: 10px;
