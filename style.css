@@ -44,7 +44,7 @@ input[type=range]:enabled {
   line-height: 32px;
 }
 
-#parameters > label#861f9298-4971-43d5-ac34-d7745348ec41{
+label[id="861f9298-4971-43d5-ac34-d7745348ec41"]{
   color : red;
 
 }
