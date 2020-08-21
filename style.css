@@ -31,6 +31,12 @@ body{
   border: 1px solid white;
 }
 
+input[type=range]:enabled {
+  background: #ffff00;
+  color: red;
+  border: 1px solid black;
+}
+
 #parameters div select{
   width: 40%; 
   float: right;
@@ -217,15 +223,3 @@ hr {
   background-color: white;
 
 }
-
-.sp-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-  z-index: 9999994;
-  overflow: hidden;
-  background-color: white;
- }
