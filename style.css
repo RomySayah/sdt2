@@ -31,11 +31,6 @@ body{
   border: 1px solid white;
 }
 
-input[type=range]:enabled {
-  background: #ffff00;
-  color: red;
-  border: 1px solid black;
-}
 
 #parameters div select{
   width: 40%; 
