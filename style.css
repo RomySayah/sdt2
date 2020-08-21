@@ -18,6 +18,7 @@ body{
 }
 
 #parameters div label{
+  display: inline-block;
   width: 40%;
   color:red;
 }
@@ -110,16 +111,16 @@ h2{
 }
 
 .left{
-    width:30%;
+    width:40%;
 }
 .middle{
     margin-top:320px;
-    width:35%;
+    width:30%;
     
 }
 .right{
     margin-top:320px;
-    width:35%;
+    width:30%;
 }
 .row{
     margin-top:150px;
