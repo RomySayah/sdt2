@@ -27,6 +27,8 @@ body{
   float: right;
   margin-right:0;
   line-height: 32px;
+  color: black;
+  border: 1px solid white;
 }
 
 #parameters div select{
