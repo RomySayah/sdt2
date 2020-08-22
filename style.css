@@ -47,6 +47,7 @@ body{
 #parameters div input[id="861f9298-4971-43d5-ac34-d7745348ec41"]{
   position: absolute;
   top: 230px;
+  left: 300px;
   width: 10%;
 }
 #parameters div label[for="723d106d-f72c-4720-8e2c-32a920a8d263"]{
@@ -56,6 +57,7 @@ body{
 }
 #parameters div select[id="723d106d-f72c-4720-8e2c-32a920a8d263"]{
   position: absolute;
+  left: 300px;
   top: 255px;
   width: 10%;
 }
@@ -66,6 +68,7 @@ body{
 }
 #parameters div input[id="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
   position: absolute;
+  left: 300px;
   top: 280px;
   width: 10%;
 }
