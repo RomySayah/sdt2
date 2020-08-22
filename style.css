@@ -41,23 +41,29 @@ body{
 
 #parameters div label[for="861f9298-4971-43d5-ac34-d7745348ec41"]{
   color : red;
+  position: absolute;
   top: 150px;
 }
 #parameters div input[id="861f9298-4971-43d5-ac34-d7745348ec41"]{
+  position: absolute;
   top: 150px;
 }
 #parameters div label[for="723d106d-f72c-4720-8e2c-32a920a8d263"]{
+  position: absolute;
   color : green;
   top: 180px;
 }
 #parameters div select[id="723d106d-f72c-4720-8e2c-32a920a8d263"]{
+  position: absolute;
   top: 180px;
 }
 #parameters div label[for="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
+  position: absolute;
   color : blue;
   top: 120px;
 }
 #parameters div input[id="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
+  position: absolute;
   top: 120px;
 }
 
