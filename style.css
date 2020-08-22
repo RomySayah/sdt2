@@ -42,36 +42,32 @@ body{
 #parameters div label[for="861f9298-4971-43d5-ac34-d7745348ec41"]{
   color : red;
   position: absolute;
-  top: 220px;
-  
+  top: 230px;
 }
 #parameters div input[id="861f9298-4971-43d5-ac34-d7745348ec41"]{
   position: absolute;
-  top: 220px;
-  left: 500px;
-  width: 20%;
+  top: 230px;
+  width: 10%;
 }
 #parameters div label[for="723d106d-f72c-4720-8e2c-32a920a8d263"]{
   position: absolute;
   color : green;
-  top: 245px;
+  top: 255px;
 }
 #parameters div select[id="723d106d-f72c-4720-8e2c-32a920a8d263"]{
   position: absolute;
-  top: 245px;
-  left: 500px;
-  width: 20%;
+  top: 255px;
+  width: 10%;
 }
 #parameters div label[for="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
   position: absolute;
   color : blue;
-  top: 260px;
+  top: 280px;
 }
 #parameters div input[id="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
   position: absolute;
-  top: 260px;
-  left: 500px;
-  width: 20%;
+  top: 280px;
+  width: 10%;
 }
 
 .box {
