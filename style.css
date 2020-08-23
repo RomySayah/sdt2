@@ -72,6 +72,17 @@ body{
   top: 280px;
   width: 10%;
 }
+#parameters div label[for="b37bcaa7-6123-4be7-8e13-4915ef5861ea"]{
+  position: absolute;
+  color : blue;
+  top: 305px;
+}
+#parameters div input[id="b37bcaa7-6123-4be7-8e13-4915ef5861ea"]{
+  position: absolute;
+  left: 30%;
+  top: 305px;
+  width: 10%;
+}
 
 .box {
   display: flex;
