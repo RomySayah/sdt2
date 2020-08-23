@@ -285,7 +285,9 @@ canvas{
 }
 
 hr {
-  width: 20px;
+  position: relative;
+  left: 0px;
+  width: 50px;
   height: 2px;
   background-color: white;
 }
