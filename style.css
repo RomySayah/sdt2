@@ -45,9 +45,9 @@ body{
   top: 230px;
 }
 #parameters div input[id="861f9298-4971-43d5-ac34-d7745348ec41"]{
-  position: relative;
+  position: absolute;
   top: 230px;
-  left: 300px;
+  left: 30%;
   width: 10%;
 }
 #parameters div label[for="723d106d-f72c-4720-8e2c-32a920a8d263"]{
@@ -56,8 +56,8 @@ body{
   top: 255px;
 }
 #parameters div select[id="723d106d-f72c-4720-8e2c-32a920a8d263"]{
-  position: relative;
-  left: 300px;
+  position: absolute;
+  left: 30%;
   top: 255px;
   width: 10%;
 }
@@ -67,8 +67,8 @@ body{
   top: 280px;
 }
 #parameters div input[id="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
-  position: relative;
-  left: 300px;
+  position: absolute;
+  left: 30%;
   top: 280px;
   width: 10%;
 }
