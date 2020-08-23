@@ -116,6 +116,12 @@ body{
   top: 408px;
   width: 10%;
 }
+#parameters div input[id="b260a124296a78161895ba506cb75c89"]{
+  position: absolute;
+  left: 35%;
+  top: 433px;
+  width: 10%;
+}
 
 .box {
   display: flex;
