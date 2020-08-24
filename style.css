@@ -280,7 +280,7 @@ body{
 #parameters div input[id="bcbd94918ea44cdda2d1bf09185835cf"]{
   position: absolute;
   left: 35%;
-  top: 690px;
+  top: 710px;
   width: 10%;
   border: 1px solid white;
   margin: 0px 0px 0px 0px;
@@ -520,6 +520,17 @@ h2{
   cursor: pointer;
 }
 button{
+  left: 420px;
+  width: 120px;
+  padding: 10px 10px;
+  border: 1px solid white;
+  margin: 0px 0px 0px 0px;
+  color:white;
+  font-family: "DIN Alternate Bold";
+  background: black;
+  cursor: pointer;
+}
+a{
   left: 420px;
   width: 120px;
   padding: 10px 10px;
