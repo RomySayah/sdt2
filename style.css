@@ -404,7 +404,7 @@ h2{
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
 
   #parameters div label[for="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
     line-height: 10px;
@@ -427,7 +427,7 @@ h2{
 }
 /* index.html gender */
 #parameters div select[id="723d106d-f72c-4720-8e2c-32a920a8d263"]{
-  left:50%;
+  left:35%;
   width: 120px;
 }
 /* index2.html gender */
