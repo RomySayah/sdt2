@@ -479,6 +479,17 @@ h2{
   background: black;
   cursor: pointer;
 }
+button{
+  left: 420px;
+  width: 120px;
+  padding: 0px 0px;
+  border: 1px solid white;
+  margin: 0px 0px 0px 0px;
+  color:white;
+  font-family: "DIN Alternate Bold";
+  background: black;
+  cursor: pointer;
+}
 
 }
 
