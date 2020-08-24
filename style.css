@@ -507,6 +507,12 @@ button{
   background: black;
   cursor: pointer;
 }
+buttons{
+  left: 420px;
+  width: 120px;
+
+}
+
 
 }
 
