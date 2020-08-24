@@ -151,94 +151,94 @@ body{
 /* index2.html width of balcony */
 #parameters div label[for="ed0536e2-e7d2-4136-8bd3-1b96a4c4ee84"]{
   position: absolute;
-  top: 430px;
+  top: 440px;
 }
 #parameters div input[id="ed0536e2-e7d2-4136-8bd3-1b96a4c4ee84"]{
   position: absolute;
   left: 35%;
-  top: 433px;
+  top: 443px;
   width: 10%;
 }
 /* index2.html window type */
 #parameters div label[for="7167446f-ac76-422a-b307-37c9eb82cf58"]{
   position: absolute;
-  top: 445px;
+  top: 465px;
 }
 #parameters div input[id="7167446f-ac76-422a-b307-37c9eb82cf58"]{
   position: absolute;
   left: 35%;
-  top: 448px;
+  top: 468px;
   width: 10%;
 }
 /* index2.html no. of windows */
 #parameters div label[for="87ac2e2e-81d0-42d3-8b98-8ddef3c7e8c4"]{
   margin-left: 10px;
   position: absolute;
-  top: 445px;
+  top: 480px;
 }
-#parameters div input[id="7167446f-ac76-422a-b307-37c9eb82cf58"]{
+#parameters div input[id="87ac2e2e-81d0-42d3-8b98-8ddef3c7e8c4"]{
   position: absolute;
   left: 35%;
-  top: 448px;
+  top: 483px;
   width: 10%;
 }
 /* index2.html size of windows */
 #parameters div label[for="83ae9872-0ba5-4a8c-9df5-2fa2ac9dfa45"]{
   margin-left: 10px;
   position: absolute;
-  top: 460px;
+  top: 495px;
 }
 #parameters div input[id="83ae9872-0ba5-4a8c-9df5-2fa2ac9dfa45"]{
   position: absolute;
   left: 35%;
-  top: 463px;
+  top: 498px;
   width: 10%;
 }
 /* index2.html ornament */
 #parameters div label[for="05656681-403e-4bf5-8d75-a1f1eb7e23f7"]{
   position: absolute;
-  top: 475px;
+  top: 520px;
 }
 #parameters div input[id="05656681-403e-4bf5-8d75-a1f1eb7e23f7"]{
   position: absolute;
   left: 35%;
-  top: 478px;
+  top: 523px;
   width: 10%;
 }
 /* index2.html no. of columns */
 #parameters div label[for="e216e516-52e2-4d8f-8f8f-f2e5c0514dc5"]{
   margin-left: 10px;
   position: absolute;
-  top: 490px;
+  top: 535px;
 }
 #parameters div input[id="e216e516-52e2-4d8f-8f8f-f2e5c0514dc5"]{
   position: absolute;
   left: 35%;
-  top: 493px;
+  top: 538px;
   width: 10%;
 }
 /* index2.html size of columns */
 #parameters div label[for="6c2ca1da-5644-43e5-b8c4-49329842355b"]{
   margin-left: 10px;
   position: absolute;
-  top: 490px;
+  top: 540px;
 }
 #parameters div input[id="6c2ca1da-5644-43e5-b8c4-49329842355b"]{
   position: absolute;
   left: 35%;
-  top: 493px;
+  top: 543px;
   width: 10%;
 }
 /* index2.html entrance type */
 #parameters div label[for="cd1a7622-12bc-40d8-8eba-3fb8f75bae39"]{
   margin-left: 10px;
   position: absolute;
-  top: 515px;
+  top: 565px;
 }
 #parameters div select[id="cd1a7622-12bc-40d8-8eba-3fb8f75bae39"]{
   position: absolute;
   left: 35%;
-  top: 518px;
+  top: 568px;
   width: 10%;
 }
 /* index.html DONE! */
@@ -252,7 +252,7 @@ body{
 #parameters div input[id="bcbd94918ea44cdda2d1bf09185835cf"]{
   position: absolute;
   left: 35%;
-  top: 530px;
+  top: 590px;
   width: 10%;
 }
 
