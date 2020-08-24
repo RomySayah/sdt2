@@ -529,7 +529,7 @@ button{
   background: black;
   cursor: pointer;
 }
-buttons{
+#buttons{
   left: 420px;
   width: 120px;
 
