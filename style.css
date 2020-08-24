@@ -221,24 +221,24 @@ body{
 #parameters div label[for="6c2ca1da-5644-43e5-b8c4-49329842355b"]{
   margin-left: 10px;
   position: absolute;
-  top: 540px;
+  top: 550px;
 }
 #parameters div input[id="6c2ca1da-5644-43e5-b8c4-49329842355b"]{
   position: absolute;
   left: 35%;
-  top: 543px;
+  top: 553px;
   width: 10%;
 }
 /* index2.html entrance type */
 #parameters div label[for="cd1a7622-12bc-40d8-8eba-3fb8f75bae39"]{
   margin-left: 10px;
   position: absolute;
-  top: 565px;
+  top: 575px;
 }
 #parameters div select[id="cd1a7622-12bc-40d8-8eba-3fb8f75bae39"]{
   position: absolute;
   left: 35%;
-  top: 568px;
+  top: 578px;
   width: 10%;
 }
 /* index.html DONE! */
@@ -252,7 +252,7 @@ body{
 #parameters div input[id="bcbd94918ea44cdda2d1bf09185835cf"]{
   position: absolute;
   left: 35%;
-  top: 590px;
+  top: 600px;
   width: 10%;
 }
 
