@@ -46,8 +46,11 @@ body{
 #parameters div input[id="861f9298-4971-43d5-ac34-d7745348ec41"]{
   position: absolute;
   top: 223px;
+  width: 10%;
+  margin-right:0px;
+  float: right;
 
-
+  
   height: 2px;
 }
 /* index2.html age */
