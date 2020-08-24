@@ -407,14 +407,17 @@ h2{
 @media (max-width: 1200px) {
 
   #parameters div label[for="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
+    line-height: 10px;
     width:40%;
   }
   #parameters div label[for="b37bcaa7-6123-4be7-8e13-4915ef5861ea"]{
+    line-height: 10px;
     width:40%;
   }
 
   /* index.html age */
 #parameters div input[id="861f9298-4971-43d5-ac34-d7745348ec41"]{
+  position:absolute;
   left:90%;
   width: 120px;
 }

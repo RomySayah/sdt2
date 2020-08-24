@@ -273,4 +273,14 @@ html2canvas(document.querySelector("#capture")).then(canvas => {
   exports.screenshotPage = screenshotPage;    
   exports.generate = generate;    
 })(window);    
+
+
+document.querySelector('button').addEventListener('click', function() {
+  html2canvas(document.querySelector('.specific'), {
+      onrendered: function(canvas) {
+          // document.body.appendChild(canvas);
+        return Canvas2Image.saveAsPNG(canvas);
+      }
+  });
+});
   
