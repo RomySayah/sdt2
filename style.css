@@ -364,6 +364,90 @@ h2{
 
 }
 
+@media (max-width: 1200px) {
+  /* index.html age */
+#parameters div input[id="861f9298-4971-43d5-ac34-d7745348ec41"]{
+  left: 420px;
+}
+/* index2.html age */
+#parameters div input[id="509d787b-73f4-4a81-9a66-4eda94016aa9"]{
+  left: 420px;
+}
+/* index.html gender */
+#parameters div select[id="723d106d-f72c-4720-8e2c-32a920a8d263"]{
+  left: 420px;
+}
+/* index2.html gender */
+#parameters div select[id="7432d91c-1b8a-4ac8-96c2-4b6f2cb6ae84"]{
+  left: 420px;
+}
+/* index.html people in household */
+#parameters div input[id="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
+  left: 420px;
+}
+/* index.html generations in household */
+#parameters div input[id="b37bcaa7-6123-4be7-8e13-4915ef5861ea"]{
+  left: 420px;
+}
+/* index.html width of parcel */
+#parameters div input[id="64dbcf14-1274-4184-be71-e778eec10ea8"]{
+  left: 420px;
+}
+/* index.html no of units in house */
+#parameters div input[id="0ee94d8e-d941-4a35-a6b6-afc5a5e088e1"]{
+  left: 420px;
+}
+/* index.html privacy level */
+#parameters div input[id="8ccce374-90b6-4cf0-bc2d-e9bdfbd0c7db"]{
+  left: 420px;
+}
+/* index2.html no. of balconies */
+#parameters div input[id="0fb8fbc1-6490-42e8-99c5-d1a5bbc636b4"]{
+  left: 420px;
+}
+/* index2.html width of balcony */
+#parameters div input[id="ed0536e2-e7d2-4136-8bd3-1b96a4c4ee84"]{
+  left: 420px;
+}
+/* index2.html window type */
+#parameters div input[id="7167446f-ac76-422a-b307-37c9eb82cf58"]{
+  left: 420px;
+}
+/* index2.html no. of windows */
+#parameters div input[id="87ac2e2e-81d0-42d3-8b98-8ddef3c7e8c4"]{
+  left: 420px;
+}
+/* index2.html size of windows */
+#parameters div input[id="83ae9872-0ba5-4a8c-9df5-2fa2ac9dfa45"]{
+  left: 420px;
+}
+/* index2.html ornament */
+#parameters div input[id="05656681-403e-4bf5-8d75-a1f1eb7e23f7"]{
+  left: 420px;
+}
+/* index2.html no. of columns */
+#parameters div input[id="e216e516-52e2-4d8f-8f8f-f2e5c0514dc5"]{
+  left: 420px;
+}
+/* index2.html size of columns */
+#parameters div input[id="6c2ca1da-5644-43e5-b8c4-49329842355b"]{
+  left: 420px;
+}
+/* index2.html entrance type */
+#parameters div select[id="cd1a7622-12bc-40d8-8eba-3fb8f75bae39"]{
+  left: 420px;
+}
+/* index.html DONE! */
+#parameters div input[id="b260a124296a78161895ba506cb75c89"]{
+  left: 420px;
+}
+/* index2.html DONE! */
+#parameters div input[id="bcbd94918ea44cdda2d1bf09185835cf"]{
+  left: 420px;
+}
+
+}
+
 
 img{
   height: 256px;
