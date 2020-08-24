@@ -48,6 +48,9 @@ body{
   top: 223px;
   left: 35%;
   width: 10%;
+  background: white;
+  color: red;
+  height: 2px;
 }
 /* index2.html age */
 #parameters div label[for="509d787b-73f4-4a81-9a66-4eda94016aa9"]{
@@ -247,6 +250,13 @@ body{
   left: 35%;
   top: 533px;
   width: 10%;
+  padding: 0px 0px;
+  border: 1px solid white;
+  margin: 0px 0px 0px 0px;
+  color:white;
+  font-family: "DIN Alternate Bold";
+  background: black;
+  cursor: pointer;
 }
 /* index2.html DONE! */
 #parameters div input[id="bcbd94918ea44cdda2d1bf09185835cf"]{
@@ -254,6 +264,13 @@ body{
   left: 35%;
   top: 690px;
   width: 10%;
+  padding: 0px 0px;
+  border: 1px solid white;
+  margin: 0px 0px 0px 0px;
+  color:white;
+  font-family: "DIN Alternate Bold";
+  background: black;
+  cursor: pointer;
 }
 
 
