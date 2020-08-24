@@ -290,6 +290,12 @@ body{
   cursor: pointer;
 }
 
+#parameters div input[id="bcbd94918ea44cdda2d1bf09185835cf"]:hover{
+  color: rgba(255,255,255,0.5);
+  border-color: rgba(255,255,255,0.5)
+  
+}
+
 
 .box {
   display: flex;
