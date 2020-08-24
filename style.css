@@ -245,14 +245,14 @@ body{
 #parameters div input[id="b260a124296a78161895ba506cb75c89"]{
   position: absolute;
   left: 35%;
-  top: 463px;
+  top: 533px;
   width: 10%;
 }
 /* index2.html DONE! */
 #parameters div input[id="bcbd94918ea44cdda2d1bf09185835cf"]{
   position: absolute;
   left: 35%;
-  top: 620px;
+  top: 690px;
   width: 10%;
 }
 
@@ -459,11 +459,25 @@ h2{
 #parameters div input[id="b260a124296a78161895ba506cb75c89"]{
   left: 420px;
   width: 120px;
+  padding: 0px 0px;
+  border: 1px solid white;
+  margin: 0px 0px 0px 0px;
+  color:white;
+  font-family: "DIN Alternate Bold";
+  background: black;
+  cursor: pointer;
 }
 /* index2.html DONE! */
 #parameters div input[id="bcbd94918ea44cdda2d1bf09185835cf"]{
   left: 420px;
   width: 120px;
+  padding: 0px 0px;
+  border: 1px solid white;
+  margin: 0px 0px 0px 0px;
+  color:white;
+  font-family: "DIN Alternate Bold";
+  background: black;
+  cursor: pointer;
 }
 
 }
@@ -476,19 +490,16 @@ img{
 }
 
 button{
-  margin: 25px;
-  padding: 10px 10px;
+  
+  padding: 0px 0px;
   border: 1px solid white;
-  margin: 0px 10px 10px 10px;
+  margin: 0px 0px 0px 0px;
   color:white;
   font-family: "DIN Alternate Bold";
   background: black;
   cursor: pointer;
 }
 
-#buttons{
-  margin-top: 20px;
-}
 
 #app{
   margin: 0px 0px 10px 0px;
