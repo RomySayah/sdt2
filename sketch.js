@@ -204,6 +204,7 @@ function transfer() {
 
 
 document.querySelector('#capture').addEventListener('click', function() {
+  console.log("clicked");
   html2canvas(document.getElementById("content"), {
       onrendered: function(canvas) {
           // document.body.appendChild(canvas);
