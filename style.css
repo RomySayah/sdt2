@@ -358,20 +358,20 @@ h2{
 }
 
 .left{
-    width:40%;
+    width:50%;
 }
 .middle{
-    margin-top:320px;
-    width:30%;
+    margin-top:340px;
+    width:25%;
     
 }
 .right{
-    margin-top:320px;
-    width:30%;
+    margin-top:340px;
+    width:25%;
 }
 .row{
     margin-top:150px;
-    width:75%;
+    width:80%;
     content:"";
     display:table;
     clear:both;
