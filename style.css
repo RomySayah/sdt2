@@ -395,6 +395,11 @@ h2{
 }
 
 @media (max-width: 900px) {
+  #capture{
+    left:50%;
+    width: 100px;
+
+  }
   /* index.html people in household */
   #parameters div label[for="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
     width:40%;
@@ -552,7 +557,17 @@ img{
   width: 256px;
   box-shadow: none !important;
 }
-
+#capture{
+  left:35%;
+  width:10%;
+  padding: 0px 0px;
+  border: 1px solid white;
+  margin: 0px 0px 0px 0px;
+  color:white;
+  font-family: "DIN Alternate Bold";
+  background: black;
+  cursor: pointer;
+}
 button{
   left:35%;
   width:10%;
