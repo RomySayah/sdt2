@@ -417,28 +417,28 @@ h2{
 
   /* index.html age */
 #parameters div input[id="861f9298-4971-43d5-ac34-d7745348ec41"]{
-  position:absolute;
-  left:90%;
-  width: 120px;
+  left:50%;
+  width: 100px;
 }
 /* index2.html age */
 #parameters div input[id="509d787b-73f4-4a81-9a66-4eda94016aa9"]{
-  width: 120px;
+  left:50%;
+  width: 100px;
 }
 /* index.html gender */
 #parameters div select[id="723d106d-f72c-4720-8e2c-32a920a8d263"]{
-  left:35%;
-  width: 120px;
+  left:50%;
+  width: 100px;
 }
 /* index2.html gender */
 #parameters div select[id="7432d91c-1b8a-4ac8-96c2-4b6f2cb6ae84"]{
-  left:90%;
-  width: 120px;
+  left:50%;
+  width: 100px;
 }
 /* index.html people in household */
 #parameters div input[id="7b132ff9-70ca-4ca3-a4d2-4d138f9fd03e"]{
-  left:90%;
-  width: 120px;
+  left:50%;
+  width: 100px;
 }
 /* index.html generations in household */
 #parameters div input[id="b37bcaa7-6123-4be7-8e13-4915ef5861ea"]{
